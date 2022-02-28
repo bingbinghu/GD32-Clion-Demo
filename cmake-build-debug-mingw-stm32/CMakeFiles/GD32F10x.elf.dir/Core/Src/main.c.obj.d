@@ -1,5 +1,5 @@
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.obj: \
- D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Src\systick.c \
+CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.obj: \
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\main.c \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS/gd32f10x.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS/core_cm3.h \
  d:\stmcube\gcc-arm-none-eabi\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
@@ -12,7 +12,7 @@ CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.obj: \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS/core_cmInstr.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS/core_cmFunc.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS/system_gd32f10x.h \
- D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Inc/gd32f10x_libopt.h \
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_libopt.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_fmc.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_pmu.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_bkp.h \
@@ -50,4 +50,21 @@ CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.obj: \
  d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\machine\stdlib.h \
  d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\alloca.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_misc.h \
- D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Inc/systick.h
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/systick.h \
+ d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\stdio.h \
+ d:\stmcube\gcc-arm-none-eabi\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
+ d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\sys\types.h \
+ d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\machine\endian.h \
+ d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\machine\_endian.h \
+ d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\sys\select.h \
+ d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\sys\_sigset.h \
+ d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\sys\_timeval.h \
+ d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\sys\timespec.h \
+ d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\sys\_timespec.h \
+ d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\sys\_pthreadtypes.h \
+ d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\sys\sched.h \
+ d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\machine\types.h \
+ d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\sys\stdio.h \
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/main.h \
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_eval.h \
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\MainApp/MainApp.h

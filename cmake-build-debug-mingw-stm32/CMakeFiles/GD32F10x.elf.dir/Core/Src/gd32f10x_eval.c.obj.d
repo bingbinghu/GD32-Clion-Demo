@@ -1,6 +1,6 @@
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.obj: \
- D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Src\gd32f10x_eval.c \
- D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Inc/gd32f10x_eval.h \
+CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.obj: \
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_eval.c \
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_eval.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS/gd32f10x.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS/core_cm3.h \
  d:\stmcube\gcc-arm-none-eabi\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
@@ -13,7 +13,7 @@ CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.obj: \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS/core_cmInstr.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS/core_cmFunc.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS/system_gd32f10x.h \
- D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Inc/gd32f10x_libopt.h \
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_libopt.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_fmc.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_pmu.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_bkp.h \

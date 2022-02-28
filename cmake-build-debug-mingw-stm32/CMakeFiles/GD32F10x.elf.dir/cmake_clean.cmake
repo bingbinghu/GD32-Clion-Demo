@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_dma.c.obj.d"
   "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_enet.c.obj"
   "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_enet.c.obj.d"
+  "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.obj"
+  "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.obj.d"
   "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exmc.c.obj"
   "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exmc.c.obj.d"
   "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exti.c.obj"
@@ -27,6 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_gpio.c.obj.d"
   "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.obj"
   "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.obj.d"
+  "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.obj"
+  "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.obj.d"
   "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_misc.c.obj"
   "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_misc.c.obj.d"
   "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_pmu.c.obj"
@@ -45,16 +49,16 @@ file(REMOVE_RECURSE
   "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_usart.c.obj.d"
   "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.obj"
   "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.obj.d"
+  "CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.obj"
+  "CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.obj.d"
+  "CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.obj"
+  "CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.obj.d"
   "CMakeFiles/GD32F10x.elf.dir/Drivers/CMSIS/system_gd32f10x.c.obj"
   "CMakeFiles/GD32F10x.elf.dir/Drivers/CMSIS/system_gd32f10x.c.obj.d"
-  "CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.obj"
-  "CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.obj.d"
-  "CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.obj"
-  "CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.obj.d"
-  "CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.obj"
-  "CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.obj.d"
-  "CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.obj"
-  "CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.obj.d"
+  "CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.obj"
+  "CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.obj.d"
+  "CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.obj"
+  "CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.obj.d"
   "CMakeFiles/GD32F10x.elf.dir/startup/startup_gd32f10x_md.S.obj"
   "GD32F10x.elf"
   "GD32F10x.elf.manifest"
@@ -62,6 +66,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang ASM C)
+foreach(lang ASM C CXX)
   include(CMakeFiles/GD32F10x.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

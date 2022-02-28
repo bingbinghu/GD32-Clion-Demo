@@ -3,7 +3,7 @@ set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_VERSION 1)
 # specify cross compilers and tools
 set(CMAKE_C_COMPILER arm-none-eabi-gcc)
-#set(CMAKE_CXX_COMPILER arm-none-eabi-g++)
+set(CMAKE_CXX_COMPILER arm-none-eabi-g++)
 set(CMAKE_ASM_COMPILER arm-none-eabi-gcc)
 set(CMAKE_AR arm-none-eabi-ar)
 set(CMAKE_OBJCOPY arm-none-eabi-objcopy)
@@ -13,7 +13,7 @@ set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 
 # project settings
 project(GD32F10x#[[TODO project name]] C CXX ASM)
-#set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 11)
 
 set(MCPU cortex-m3#[[TODO kernel type, ex cortex-m4]])
@@ -53,8 +53,9 @@ include_directories(
         ${CMAKE_SOURCE_DIR}/../Drivers/CMSIS/Device/ST/STM32H7xx/Include
         ]]
         Core/Inc
-        Drivers/CMSIS/
-        UserApp/Inc
+        Drivers/CMSIS
+        UserApp/MainApp
+        UserApp/LEDControl
         )
 
 add_definitions(#[[TODO insert definitions, ex. -DUSE_HAL_DRIVER -DCORE_CM4 -DDEBUG -DSTM32H745xx]]
@@ -67,7 +68,8 @@ file(GLOB_RECURSE SOURCES
         "startup/startup_gd32f10x_md.S"
         "Core/Src/*.c"
         "Drivers/CMSIS/*.c"
-        "UserApp/Src/*.c"
+        "UserApp/MainApp/*.*"
+        "UserApp/LEDControl/*.*"
         )
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/gd32f10x_flash.ld #[[TODO linker script name, ex STM32H745ZITX_FLASH.ld]])

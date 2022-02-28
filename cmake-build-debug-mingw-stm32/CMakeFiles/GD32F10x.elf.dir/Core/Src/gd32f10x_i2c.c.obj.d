@@ -13,7 +13,7 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.obj: \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS/core_cmInstr.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS/core_cmFunc.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS/system_gd32f10x.h \
- D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Inc/gd32f10x_libopt.h \
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_libopt.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_fmc.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_pmu.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_bkp.h \
@@ -30,6 +30,7 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.obj: \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_rtc.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_timer.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_usart.h \
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_i2c.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_spi.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_sdio.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_exmc.h \
