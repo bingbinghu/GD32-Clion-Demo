@@ -180,10 +180,24 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_enet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_enet.c.s"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_enet.c -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_enet.c.s
 
+CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
+CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.obj: ../Core/Src/gd32f10x_eval.c
+CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.obj"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_eval.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_eval.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_eval.c
+
+CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.i"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_eval.c > CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_eval.c.i
+
+CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.s"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_eval.c -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_eval.c.s
+
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exmc.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exmc.c.obj: ../Core/Src/gd32f10x_exmc.c
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exmc.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exmc.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exmc.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_exmc.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_exmc.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_exmc.c
 
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exmc.c.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exmc.c.s: cmake_force
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exti.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exti.c.obj: ../Core/Src/gd32f10x_exti.c
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exti.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exti.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exti.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_exti.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_exti.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_exti.c
 
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exti.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exti.c.s: cmake_force
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fmc.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fmc.c.obj: ../Core/Src/gd32f10x_fmc.c
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fmc.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fmc.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fmc.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_fmc.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_fmc.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_fmc.c
 
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fmc.c.i: cmake_force
@@ -225,7 +239,7 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fmc.c.s: cmake_force
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fwdgt.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fwdgt.c.obj: ../Core/Src/gd32f10x_fwdgt.c
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fwdgt.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fwdgt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fwdgt.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fwdgt.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_fwdgt.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_fwdgt.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_fwdgt.c
 
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fwdgt.c.i: cmake_force
@@ -239,7 +253,7 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fwdgt.c.s: cmake_force
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_gpio.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_gpio.c.obj: ../Core/Src/gd32f10x_gpio.c
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_gpio.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_gpio.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_gpio.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_gpio.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_gpio.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_gpio.c
 
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_gpio.c.i: cmake_force
@@ -253,7 +267,7 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_gpio.c.s: cmake_force
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.obj: ../Core/Src/gd32f10x_i2c.c
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_i2c.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_i2c.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_i2c.c
 
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.i: cmake_force
@@ -264,10 +278,24 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.s"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_i2c.c -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_i2c.c.s
 
+CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
+CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.obj: ../Core/Src/gd32f10x_it.c
+CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.obj"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_it.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_it.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_it.c
+
+CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.i"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_it.c > CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_it.c.i
+
+CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.s"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_it.c -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_it.c.s
+
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_misc.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_misc.c.obj: ../Core/Src/gd32f10x_misc.c
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_misc.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_misc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_misc.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_misc.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_misc.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_misc.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_misc.c
 
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_misc.c.i: cmake_force
@@ -281,7 +309,7 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_misc.c.s: cmake_force
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_pmu.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_pmu.c.obj: ../Core/Src/gd32f10x_pmu.c
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_pmu.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_pmu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_pmu.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_pmu.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_pmu.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_pmu.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_pmu.c
 
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_pmu.c.i: cmake_force
@@ -295,7 +323,7 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_pmu.c.s: cmake_force
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rcu.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rcu.c.obj: ../Core/Src/gd32f10x_rcu.c
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rcu.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rcu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rcu.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rcu.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_rcu.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_rcu.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_rcu.c
 
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rcu.c.i: cmake_force
@@ -309,7 +337,7 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rcu.c.s: cmake_force
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rtc.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rtc.c.obj: ../Core/Src/gd32f10x_rtc.c
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rtc.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rtc.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rtc.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_rtc.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_rtc.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_rtc.c
 
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rtc.c.i: cmake_force
@@ -323,7 +351,7 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rtc.c.s: cmake_force
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_sdio.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_sdio.c.obj: ../Core/Src/gd32f10x_sdio.c
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_sdio.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_sdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_sdio.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_sdio.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_sdio.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_sdio.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_sdio.c
 
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_sdio.c.i: cmake_force
@@ -337,7 +365,7 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_sdio.c.s: cmake_force
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_spi.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_spi.c.obj: ../Core/Src/gd32f10x_spi.c
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_spi.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_spi.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_spi.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_spi.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_spi.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_spi.c
 
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_spi.c.i: cmake_force
@@ -351,7 +379,7 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_spi.c.s: cmake_force
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_timer.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_timer.c.obj: ../Core/Src/gd32f10x_timer.c
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_timer.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_timer.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_timer.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_timer.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_timer.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_timer.c
 
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_timer.c.i: cmake_force
@@ -365,7 +393,7 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_timer.c.s: cmake_force
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_usart.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_usart.c.obj: ../Core/Src/gd32f10x_usart.c
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_usart.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_usart.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_usart.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_usart.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_usart.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_usart.c
 
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_usart.c.i: cmake_force
@@ -379,7 +407,7 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_usart.c.s: cmake_force
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.obj: ../Core/Src/gd32f10x_wwdgt.c
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_wwdgt.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_wwdgt.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_wwdgt.c
 
 CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.i: cmake_force
@@ -390,10 +418,38 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.s"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_wwdgt.c -o CMakeFiles\GD32F10x.elf.dir\Core\Src\gd32f10x_wwdgt.c.s
 
+CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
+CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
+CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.obj"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\main.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\main.c
+
+CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.i"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\main.c > CMakeFiles\GD32F10x.elf.dir\Core\Src\main.c.i
+
+CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.s"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\main.c -o CMakeFiles\GD32F10x.elf.dir\Core\Src\main.c.s
+
+CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
+CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.obj: ../Core/Src/systick.c
+CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.obj"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Core\Src\systick.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Core\Src\systick.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\systick.c
+
+CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.i"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\systick.c > CMakeFiles\GD32F10x.elf.dir\Core\Src\systick.c.i
+
+CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.s"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\systick.c -o CMakeFiles\GD32F10x.elf.dir\Core\Src\systick.c.s
+
 CMakeFiles/GD32F10x.elf.dir/Drivers/CMSIS/system_gd32f10x.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/Drivers/CMSIS/system_gd32f10x.c.obj: ../Drivers/CMSIS/system_gd32f10x.c
 CMakeFiles/GD32F10x.elf.dir/Drivers/CMSIS/system_gd32f10x.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/GD32F10x.elf.dir/Drivers/CMSIS/system_gd32f10x.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/GD32F10x.elf.dir/Drivers/CMSIS/system_gd32f10x.c.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/Drivers/CMSIS/system_gd32f10x.c.obj -MF CMakeFiles\GD32F10x.elf.dir\Drivers\CMSIS\system_gd32f10x.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\Drivers\CMSIS\system_gd32f10x.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS\system_gd32f10x.c
 
 CMakeFiles/GD32F10x.elf.dir/Drivers/CMSIS/system_gd32f10x.c.i: cmake_force
@@ -404,65 +460,37 @@ CMakeFiles/GD32F10x.elf.dir/Drivers/CMSIS/system_gd32f10x.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GD32F10x.elf.dir/Drivers/CMSIS/system_gd32f10x.c.s"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS\system_gd32f10x.c -o CMakeFiles\GD32F10x.elf.dir\Drivers\CMSIS\system_gd32f10x.c.s
 
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.obj: ../UserApp/Src/gd32f10x_eval.c
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.obj"
-	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.obj -MF CMakeFiles\GD32F10x.elf.dir\UserApp\Src\gd32f10x_eval.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\UserApp\Src\gd32f10x_eval.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Src\gd32f10x_eval.c
+CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
+CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.obj: ../UserApp/LEDControl/LEDCtrl.cpp
+CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.obj"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.obj -MF CMakeFiles\GD32F10x.elf.dir\UserApp\LEDControl\LEDCtrl.cpp.obj.d -o CMakeFiles\GD32F10x.elf.dir\UserApp\LEDControl\LEDCtrl.cpp.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\LEDControl\LEDCtrl.cpp
 
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.i"
-	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Src\gd32f10x_eval.c > CMakeFiles\GD32F10x.elf.dir\UserApp\Src\gd32f10x_eval.c.i
+CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.i"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\LEDControl\LEDCtrl.cpp > CMakeFiles\GD32F10x.elf.dir\UserApp\LEDControl\LEDCtrl.cpp.i
 
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.s"
-	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Src\gd32f10x_eval.c -o CMakeFiles\GD32F10x.elf.dir\UserApp\Src\gd32f10x_eval.c.s
+CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.s"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\LEDControl\LEDCtrl.cpp -o CMakeFiles\GD32F10x.elf.dir\UserApp\LEDControl\LEDCtrl.cpp.s
 
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.obj: ../UserApp/Src/gd32f10x_it.c
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.obj"
-	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.obj -MF CMakeFiles\GD32F10x.elf.dir\UserApp\Src\gd32f10x_it.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\UserApp\Src\gd32f10x_it.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Src\gd32f10x_it.c
+CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
+CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.obj: ../UserApp/MainApp/MainApp.cpp
+CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.obj"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.obj -MF CMakeFiles\GD32F10x.elf.dir\UserApp\MainApp\MainApp.cpp.obj.d -o CMakeFiles\GD32F10x.elf.dir\UserApp\MainApp\MainApp.cpp.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\MainApp\MainApp.cpp
 
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.i"
-	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Src\gd32f10x_it.c > CMakeFiles\GD32F10x.elf.dir\UserApp\Src\gd32f10x_it.c.i
+CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.i"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\MainApp\MainApp.cpp > CMakeFiles\GD32F10x.elf.dir\UserApp\MainApp\MainApp.cpp.i
 
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.s"
-	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Src\gd32f10x_it.c -o CMakeFiles\GD32F10x.elf.dir\UserApp\Src\gd32f10x_it.c.s
-
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.obj: ../UserApp/Src/main.c
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.obj"
-	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.obj -MF CMakeFiles\GD32F10x.elf.dir\UserApp\Src\main.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\UserApp\Src\main.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Src\main.c
-
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.i"
-	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Src\main.c > CMakeFiles\GD32F10x.elf.dir\UserApp\Src\main.c.i
-
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.s"
-	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Src\main.c -o CMakeFiles\GD32F10x.elf.dir\UserApp\Src\main.c.s
-
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.obj: ../UserApp/Src/systick.c
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.obj: CMakeFiles/GD32F10x.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.obj"
-	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.obj -MF CMakeFiles\GD32F10x.elf.dir\UserApp\Src\systick.c.obj.d -o CMakeFiles\GD32F10x.elf.dir\UserApp\Src\systick.c.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Src\systick.c
-
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.i"
-	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Src\systick.c > CMakeFiles\GD32F10x.elf.dir\UserApp\Src\systick.c.i
-
-CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.s"
-	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\Src\systick.c -o CMakeFiles\GD32F10x.elf.dir\UserApp\Src\systick.c.s
+CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.s"
+	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\HSB\working\HanHan_MCU\GD32\clion_temple\UserApp\MainApp\MainApp.cpp -o CMakeFiles\GD32F10x.elf.dir\UserApp\MainApp\MainApp.cpp.s
 
 CMakeFiles/GD32F10x.elf.dir/startup/startup_gd32f10x_md.S.obj: CMakeFiles/GD32F10x.elf.dir/flags.make
 CMakeFiles/GD32F10x.elf.dir/startup/startup_gd32f10x_md.S.obj: ../startup/startup_gd32f10x_md.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object CMakeFiles/GD32F10x.elf.dir/startup/startup_gd32f10x_md.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/GD32F10x.elf.dir/startup/startup_gd32f10x_md.S.obj"
 	D:\stmCube\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\GD32F10x.elf.dir\startup\startup_gd32f10x_md.S.obj -c D:\HSB\working\HanHan_MCU\GD32\clion_temple\startup\startup_gd32f10x_md.S
 
 CMakeFiles/GD32F10x.elf.dir/startup/startup_gd32f10x_md.S.i: cmake_force
@@ -483,12 +511,14 @@ GD32F10x_elf_OBJECTS = \
 "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_dbg.c.obj" \
 "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_dma.c.obj" \
 "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_enet.c.obj" \
+"CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.obj" \
 "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exmc.c.obj" \
 "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exti.c.obj" \
 "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fmc.c.obj" \
 "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fwdgt.c.obj" \
 "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_gpio.c.obj" \
 "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.obj" \
+"CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.obj" \
 "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_misc.c.obj" \
 "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_pmu.c.obj" \
 "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rcu.c.obj" \
@@ -498,11 +528,11 @@ GD32F10x_elf_OBJECTS = \
 "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_timer.c.obj" \
 "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_usart.c.obj" \
 "CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.obj" \
+"CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.obj" \
+"CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.obj" \
 "CMakeFiles/GD32F10x.elf.dir/Drivers/CMSIS/system_gd32f10x.c.obj" \
-"CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.obj" \
-"CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.obj" \
-"CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.obj" \
-"CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.obj" \
+"CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.obj" \
+"CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.obj" \
 "CMakeFiles/GD32F10x.elf.dir/startup/startup_gd32f10x_md.S.obj"
 
 # External object files for target GD32F10x.elf
@@ -516,12 +546,14 @@ GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_dac.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_dbg.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_dma.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_enet.c.obj
+GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exmc.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_exti.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fmc.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_fwdgt.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_gpio.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.obj
+GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_misc.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_pmu.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_rcu.c.obj
@@ -531,15 +563,15 @@ GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_spi.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_timer.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_usart.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.obj
+GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.obj
+GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/Drivers/CMSIS/system_gd32f10x.c.obj
-GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.obj
-GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.obj
-GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.obj
-GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.obj
+GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.obj
+GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/startup/startup_gd32f10x_md.S.obj
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/build.make
 GD32F10x.elf: CMakeFiles/GD32F10x.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable GD32F10x.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\HSB\working\HanHan_MCU\GD32\clion_temple\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable GD32F10x.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GD32F10x.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/HSB/working/HanHan_MCU/GD32/clion_temple/cmake-build-debug-mingw-stm32/GD32F10x.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/HSB/working/HanHan_MCU/GD32/clion_temple/cmake-build-debug-mingw-stm32/GD32F10x.bin"

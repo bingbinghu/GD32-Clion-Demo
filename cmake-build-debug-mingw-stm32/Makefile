@@ -320,6 +320,30 @@ Core/Src/gd32f10x_enet.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_enet.c.s
 .PHONY : Core/Src/gd32f10x_enet.c.s
 
+Core/Src/gd32f10x_eval.obj: Core/Src/gd32f10x_eval.c.obj
+.PHONY : Core/Src/gd32f10x_eval.obj
+
+# target to build an object file
+Core/Src/gd32f10x_eval.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.obj
+.PHONY : Core/Src/gd32f10x_eval.c.obj
+
+Core/Src/gd32f10x_eval.i: Core/Src/gd32f10x_eval.c.i
+.PHONY : Core/Src/gd32f10x_eval.i
+
+# target to preprocess a source file
+Core/Src/gd32f10x_eval.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.i
+.PHONY : Core/Src/gd32f10x_eval.c.i
+
+Core/Src/gd32f10x_eval.s: Core/Src/gd32f10x_eval.c.s
+.PHONY : Core/Src/gd32f10x_eval.s
+
+# target to generate assembly for a file
+Core/Src/gd32f10x_eval.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_eval.c.s
+.PHONY : Core/Src/gd32f10x_eval.c.s
+
 Core/Src/gd32f10x_exmc.obj: Core/Src/gd32f10x_exmc.c.obj
 .PHONY : Core/Src/gd32f10x_exmc.obj
 
@@ -463,6 +487,30 @@ Core/Src/gd32f10x_i2c.s: Core/Src/gd32f10x_i2c.c.s
 Core/Src/gd32f10x_i2c.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_i2c.c.s
 .PHONY : Core/Src/gd32f10x_i2c.c.s
+
+Core/Src/gd32f10x_it.obj: Core/Src/gd32f10x_it.c.obj
+.PHONY : Core/Src/gd32f10x_it.obj
+
+# target to build an object file
+Core/Src/gd32f10x_it.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.obj
+.PHONY : Core/Src/gd32f10x_it.c.obj
+
+Core/Src/gd32f10x_it.i: Core/Src/gd32f10x_it.c.i
+.PHONY : Core/Src/gd32f10x_it.i
+
+# target to preprocess a source file
+Core/Src/gd32f10x_it.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.i
+.PHONY : Core/Src/gd32f10x_it.c.i
+
+Core/Src/gd32f10x_it.s: Core/Src/gd32f10x_it.c.s
+.PHONY : Core/Src/gd32f10x_it.s
+
+# target to generate assembly for a file
+Core/Src/gd32f10x_it.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.s
+.PHONY : Core/Src/gd32f10x_it.c.s
 
 Core/Src/gd32f10x_misc.obj: Core/Src/gd32f10x_misc.c.obj
 .PHONY : Core/Src/gd32f10x_misc.obj
@@ -680,6 +728,54 @@ Core/Src/gd32f10x_wwdgt.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.s
 .PHONY : Core/Src/gd32f10x_wwdgt.c.s
 
+Core/Src/main.obj: Core/Src/main.c.obj
+.PHONY : Core/Src/main.obj
+
+# target to build an object file
+Core/Src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.obj
+.PHONY : Core/Src/main.c.obj
+
+Core/Src/main.i: Core/Src/main.c.i
+.PHONY : Core/Src/main.i
+
+# target to preprocess a source file
+Core/Src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.i
+.PHONY : Core/Src/main.c.i
+
+Core/Src/main.s: Core/Src/main.c.s
+.PHONY : Core/Src/main.s
+
+# target to generate assembly for a file
+Core/Src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Core/Src/main.c.s
+.PHONY : Core/Src/main.c.s
+
+Core/Src/systick.obj: Core/Src/systick.c.obj
+.PHONY : Core/Src/systick.obj
+
+# target to build an object file
+Core/Src/systick.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.obj
+.PHONY : Core/Src/systick.c.obj
+
+Core/Src/systick.i: Core/Src/systick.c.i
+.PHONY : Core/Src/systick.i
+
+# target to preprocess a source file
+Core/Src/systick.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.i
+.PHONY : Core/Src/systick.c.i
+
+Core/Src/systick.s: Core/Src/systick.c.s
+.PHONY : Core/Src/systick.s
+
+# target to generate assembly for a file
+Core/Src/systick.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Core/Src/systick.c.s
+.PHONY : Core/Src/systick.c.s
+
 Drivers/CMSIS/system_gd32f10x.obj: Drivers/CMSIS/system_gd32f10x.c.obj
 .PHONY : Drivers/CMSIS/system_gd32f10x.obj
 
@@ -704,101 +800,53 @@ Drivers/CMSIS/system_gd32f10x.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/Drivers/CMSIS/system_gd32f10x.c.s
 .PHONY : Drivers/CMSIS/system_gd32f10x.c.s
 
-UserApp/Src/gd32f10x_eval.obj: UserApp/Src/gd32f10x_eval.c.obj
-.PHONY : UserApp/Src/gd32f10x_eval.obj
+UserApp/LEDControl/LEDCtrl.obj: UserApp/LEDControl/LEDCtrl.cpp.obj
+.PHONY : UserApp/LEDControl/LEDCtrl.obj
 
 # target to build an object file
-UserApp/Src/gd32f10x_eval.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.obj
-.PHONY : UserApp/Src/gd32f10x_eval.c.obj
+UserApp/LEDControl/LEDCtrl.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.obj
+.PHONY : UserApp/LEDControl/LEDCtrl.cpp.obj
 
-UserApp/Src/gd32f10x_eval.i: UserApp/Src/gd32f10x_eval.c.i
-.PHONY : UserApp/Src/gd32f10x_eval.i
+UserApp/LEDControl/LEDCtrl.i: UserApp/LEDControl/LEDCtrl.cpp.i
+.PHONY : UserApp/LEDControl/LEDCtrl.i
 
 # target to preprocess a source file
-UserApp/Src/gd32f10x_eval.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.i
-.PHONY : UserApp/Src/gd32f10x_eval.c.i
+UserApp/LEDControl/LEDCtrl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.i
+.PHONY : UserApp/LEDControl/LEDCtrl.cpp.i
 
-UserApp/Src/gd32f10x_eval.s: UserApp/Src/gd32f10x_eval.c.s
-.PHONY : UserApp/Src/gd32f10x_eval.s
+UserApp/LEDControl/LEDCtrl.s: UserApp/LEDControl/LEDCtrl.cpp.s
+.PHONY : UserApp/LEDControl/LEDCtrl.s
 
 # target to generate assembly for a file
-UserApp/Src/gd32f10x_eval.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_eval.c.s
-.PHONY : UserApp/Src/gd32f10x_eval.c.s
+UserApp/LEDControl/LEDCtrl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/LEDControl/LEDCtrl.cpp.s
+.PHONY : UserApp/LEDControl/LEDCtrl.cpp.s
 
-UserApp/Src/gd32f10x_it.obj: UserApp/Src/gd32f10x_it.c.obj
-.PHONY : UserApp/Src/gd32f10x_it.obj
+UserApp/MainApp/MainApp.obj: UserApp/MainApp/MainApp.cpp.obj
+.PHONY : UserApp/MainApp/MainApp.obj
 
 # target to build an object file
-UserApp/Src/gd32f10x_it.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.obj
-.PHONY : UserApp/Src/gd32f10x_it.c.obj
+UserApp/MainApp/MainApp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.obj
+.PHONY : UserApp/MainApp/MainApp.cpp.obj
 
-UserApp/Src/gd32f10x_it.i: UserApp/Src/gd32f10x_it.c.i
-.PHONY : UserApp/Src/gd32f10x_it.i
-
-# target to preprocess a source file
-UserApp/Src/gd32f10x_it.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.i
-.PHONY : UserApp/Src/gd32f10x_it.c.i
-
-UserApp/Src/gd32f10x_it.s: UserApp/Src/gd32f10x_it.c.s
-.PHONY : UserApp/Src/gd32f10x_it.s
-
-# target to generate assembly for a file
-UserApp/Src/gd32f10x_it.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/Src/gd32f10x_it.c.s
-.PHONY : UserApp/Src/gd32f10x_it.c.s
-
-UserApp/Src/main.obj: UserApp/Src/main.c.obj
-.PHONY : UserApp/Src/main.obj
-
-# target to build an object file
-UserApp/Src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.obj
-.PHONY : UserApp/Src/main.c.obj
-
-UserApp/Src/main.i: UserApp/Src/main.c.i
-.PHONY : UserApp/Src/main.i
+UserApp/MainApp/MainApp.i: UserApp/MainApp/MainApp.cpp.i
+.PHONY : UserApp/MainApp/MainApp.i
 
 # target to preprocess a source file
-UserApp/Src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.i
-.PHONY : UserApp/Src/main.c.i
+UserApp/MainApp/MainApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.i
+.PHONY : UserApp/MainApp/MainApp.cpp.i
 
-UserApp/Src/main.s: UserApp/Src/main.c.s
-.PHONY : UserApp/Src/main.s
-
-# target to generate assembly for a file
-UserApp/Src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/Src/main.c.s
-.PHONY : UserApp/Src/main.c.s
-
-UserApp/Src/systick.obj: UserApp/Src/systick.c.obj
-.PHONY : UserApp/Src/systick.obj
-
-# target to build an object file
-UserApp/Src/systick.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.obj
-.PHONY : UserApp/Src/systick.c.obj
-
-UserApp/Src/systick.i: UserApp/Src/systick.c.i
-.PHONY : UserApp/Src/systick.i
-
-# target to preprocess a source file
-UserApp/Src/systick.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.i
-.PHONY : UserApp/Src/systick.c.i
-
-UserApp/Src/systick.s: UserApp/Src/systick.c.s
-.PHONY : UserApp/Src/systick.s
+UserApp/MainApp/MainApp.s: UserApp/MainApp/MainApp.cpp.s
+.PHONY : UserApp/MainApp/MainApp.s
 
 # target to generate assembly for a file
-UserApp/Src/systick.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/Src/systick.c.s
-.PHONY : UserApp/Src/systick.c.s
+UserApp/MainApp/MainApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GD32F10x.elf.dir\build.make CMakeFiles/GD32F10x.elf.dir/UserApp/MainApp/MainApp.cpp.s
+.PHONY : UserApp/MainApp/MainApp.cpp.s
 
 startup/startup_gd32f10x_md.obj: startup/startup_gd32f10x_md.S.obj
 .PHONY : startup/startup_gd32f10x_md.obj
@@ -841,6 +889,9 @@ help:
 	@echo ... Core/Src/gd32f10x_enet.obj
 	@echo ... Core/Src/gd32f10x_enet.i
 	@echo ... Core/Src/gd32f10x_enet.s
+	@echo ... Core/Src/gd32f10x_eval.obj
+	@echo ... Core/Src/gd32f10x_eval.i
+	@echo ... Core/Src/gd32f10x_eval.s
 	@echo ... Core/Src/gd32f10x_exmc.obj
 	@echo ... Core/Src/gd32f10x_exmc.i
 	@echo ... Core/Src/gd32f10x_exmc.s
@@ -859,6 +910,9 @@ help:
 	@echo ... Core/Src/gd32f10x_i2c.obj
 	@echo ... Core/Src/gd32f10x_i2c.i
 	@echo ... Core/Src/gd32f10x_i2c.s
+	@echo ... Core/Src/gd32f10x_it.obj
+	@echo ... Core/Src/gd32f10x_it.i
+	@echo ... Core/Src/gd32f10x_it.s
 	@echo ... Core/Src/gd32f10x_misc.obj
 	@echo ... Core/Src/gd32f10x_misc.i
 	@echo ... Core/Src/gd32f10x_misc.s
@@ -886,21 +940,21 @@ help:
 	@echo ... Core/Src/gd32f10x_wwdgt.obj
 	@echo ... Core/Src/gd32f10x_wwdgt.i
 	@echo ... Core/Src/gd32f10x_wwdgt.s
+	@echo ... Core/Src/main.obj
+	@echo ... Core/Src/main.i
+	@echo ... Core/Src/main.s
+	@echo ... Core/Src/systick.obj
+	@echo ... Core/Src/systick.i
+	@echo ... Core/Src/systick.s
 	@echo ... Drivers/CMSIS/system_gd32f10x.obj
 	@echo ... Drivers/CMSIS/system_gd32f10x.i
 	@echo ... Drivers/CMSIS/system_gd32f10x.s
-	@echo ... UserApp/Src/gd32f10x_eval.obj
-	@echo ... UserApp/Src/gd32f10x_eval.i
-	@echo ... UserApp/Src/gd32f10x_eval.s
-	@echo ... UserApp/Src/gd32f10x_it.obj
-	@echo ... UserApp/Src/gd32f10x_it.i
-	@echo ... UserApp/Src/gd32f10x_it.s
-	@echo ... UserApp/Src/main.obj
-	@echo ... UserApp/Src/main.i
-	@echo ... UserApp/Src/main.s
-	@echo ... UserApp/Src/systick.obj
-	@echo ... UserApp/Src/systick.i
-	@echo ... UserApp/Src/systick.s
+	@echo ... UserApp/LEDControl/LEDCtrl.obj
+	@echo ... UserApp/LEDControl/LEDCtrl.i
+	@echo ... UserApp/LEDControl/LEDCtrl.s
+	@echo ... UserApp/MainApp/MainApp.obj
+	@echo ... UserApp/MainApp/MainApp.i
+	@echo ... UserApp/MainApp/MainApp.s
 	@echo ... startup/startup_gd32f10x_md.obj
 .PHONY : help
 

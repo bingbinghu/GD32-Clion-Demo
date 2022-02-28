@@ -1,6 +1,6 @@
-CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.obj: \
- D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_wwdgt.c \
- D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_wwdgt.h \
+CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_it.c.obj: \
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Src\gd32f10x_it.c \
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_it.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS/gd32f10x.h \
  D:\HSB\working\HanHan_MCU\GD32\clion_temple\Drivers\CMSIS/core_cm3.h \
  d:\stmcube\gcc-arm-none-eabi\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
@@ -50,4 +50,6 @@ CMakeFiles/GD32F10x.elf.dir/Core/Src/gd32f10x_wwdgt.c.obj: \
  d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\sys\cdefs.h \
  d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\machine\stdlib.h \
  d:\stmcube\gcc-arm-none-eabi\arm-none-eabi\include\alloca.h \
- D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_misc.h
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/gd32f10x_misc.h \
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/main.h \
+ D:\HSB\working\HanHan_MCU\GD32\clion_temple\Core\Inc/systick.h
